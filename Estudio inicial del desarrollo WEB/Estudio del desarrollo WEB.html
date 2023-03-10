@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+    <!--la etiqueta head es para todos los elementos detras de escena-->
+		<title>¿Donde aparece esto?</title>
+      <!--la etiqueta title modifica el titulo de la pagina en la pestana-->
+      <link href="style.css" rel="stylesheet"> <!--La etiqueta link es para linkear el archivo .css y que la pagina lo pueda mostrar, se utiliza con el atributo href para indicar cual es el archivo, y con el atributo rel para indicar la relacion con el archivo-->
+   	</head>
+	<body>
+		<main>
+      <!--Este es una prueba de comentarios en el código, se puede utilizar como recordatorio de tareas pendientes en el código-->
+
+			<h1>Prueba de desarrollo WEB</h1>
+      <!--Las etiquetas <h1>... hasta el 6 es para la prioridad de títulos-->
+
+      <p>Probando lo que se puede hacer en <strong>HTML</strong></p>
+      <!--La etiqueta <strong> se utiliza para colocar texto en negrita-->
+
+			<p>Segundo párrafo para ver la <em>estructura creada en la web</em></p>
+      <!--La etiqueta <em> se utiliza para colocar texto en cursiva-->
+
+			<p><s>Pensé que tenía un error aquí</s>, pero ya me dí cuenta que no tenía un error</p>
+      <!--la etiqueta <S> (strikethrough) sirve para tachar una palabra-->
+
+      <a href="#Parrafo-1">Párrafo 1</a>
+      <br>
+      <a href="#Parrafo-2">Párrafo 2</a>
+      <br>
+      <a href="#Parrafo-3">Párrafo 3</a>
+      <br>
+      <a href="#Parrafo-4">Párrafo 4</a>
+      <br>
+      <a href="#anime-visto">Lista de animes vistos:</a>
+      <br>
+      <a href="#anime-por-ver">Lista de animes por ver:</a>
+
+
+      <!--href es para insertar enlaces, en este caso es un enlace interno-->
+
+      <br>
+
+      <a href="https://www3.animeflv.net/" target="_blank" rel="noopener noreferrer"><img src="https://www3.animeflv.net/uploads/animes/thumbs/3699.jpg" alt="captura de escena de anime de niño azul y niña rosa delante"></a>
+      <!--el atributo src se utiliza para determinar la localización de la imagen a utilizar. En este caso la fuente de la imagen es un enlace de internet-->
+      <!--el atributo Alt se utiliza para una alternativa de accesibilidad en caso de que la foto no pueda cargar-->
+      <!--En este código, la imagen es también un elance externo con atributo para abrir en una pestaña nueva-->
+
+      <br>
+
+      <a href="https://www3.animeflv.net/" target="_blank" rel="noopener noreferrer">Click Aquí para enlace</a>
+      <!--REl= "noopener noreferrer" se utiliza por motivos de seguridad para evitar el tabnabbing. "Estudiar el tabnabbing"-->
+      <!-- href es para insertar enlaces en este caso es un enlace externo, target con "_blank" es para abrir el enlace en una pestaña nueva-->
+
+      <h3 id="Parrafo-1">Párrafo 1</h3>
+
+      <p>Though she is a viable unit without any further investment, Layla’s first Constellation boasts an overall increase in her abilities that is impossible to ignore. As a result, any meta team or build should operate with a C1 Layla at the minimum.</p>
+
+      <h3 id="Parrafo-2">Párrafo 2</h3>
+
+      <p>The core of Layla’s kit is her Elemental Skill, Nights of Formal Focus; this provides a shield of Cryo around the members of your party that’s power scales from Layla’s Max HP. This skill also generates Night Stars whenever a character within the shield uses their Elemental Skill. Once four have been generated, they will fire off as projectiles, causing damage and applying Cryo to the target.</p>
+
+      <h3 id="Parrafo-3">Párrafo 3</h3>
+        
+      <p>The reason Layla’s first Constellation is so essential is twofold; not only does it provide a hefty 20 percent increase to the Shield Absorption stat of Nights of Formal Focus (which allows it to take more damage before dissipating), it also means that whenever Layla uses her skill during co-op play, any nearby party members will also be covered by a Cryo shield.</p>
+
+      <h3 id="Parrafo-4">Párrafo 4</h3>
+        
+      <p>As it is the first unlock of Layla’s Constellation, it is a highly accessible buff that allows Layla to provide better support for the party while playing alone or during co-op.</p>
+
+      <img src="imagenes/3736.webp">
+      <!--el Atributo src en este caso está seleccionando una imagen guardada en el computador en la carpeta creada imagen-->
+
+      <hr>
+      <!--la etiqueta <hr> (horizontal rule) muestra una linea horizontal en la web-->
+
+      <h4 id="anime-visto">Lista de animes vistos:</h4>
+      
+      <div>
+        <p>Esta es una lista de los animes que ya he visto</p>
+          <ul class="lista-animes-vistos">
+            <a href="https://www.crunchyroll.com/series/GY5P48XEY/demon-slayer-kimetsu-no-yaiba" target="_blank" rel="noopener noreferrer"><li>Demon Slayer</li></a>
+            <li>Jujutsu Kaisen</li>
+            <li>One Piece</li>
+            <li>Hunter X Hunter</li>
+            <li>Naruto</li>
+            <li>One Punch Man</li>
+            <li>Sword Art Online</li>
+            <li>Tengen Toopa Gurren Lagan</li>
+          </ul>
+          <!--La etiqueta <ul> (unordered list) Lista no ordenada, siempre va acompañada de la etiqueta <li> para cada item de la lista estos elementos en lista aparecen con una viñeta de punto negro-->
+      </div>
+      <h4 id="anime-por-ver">Lista de animes por ver:</h4>
+
+      <div>
+        <!--la etiqueta div sirve como contenedor para dar estilo usando CSS. No tiene efecto en el resultado final hasta que se modifica con CSS-->
+        <p>Esta es una lista de los animes que están en lista para ver:</p>
+          <ol>
+            <li>Samurai Shanploo</li>
+            <li>Solo Leveling</li>
+            <li>Blood C</li>
+            <li>Vinland Saga</li>
+            <li>Spy family</li>
+            <li>Boruto</li>
+          </ol>
+          <!-- A diferencia de la etiqueta <ul>, la etiqueta <ol> es justamente lo contrario, una lista ordenada(ordered list), los items de la lista apareceran enumerados.-->
+      </div>
+        
+
+      <form action="/index.html">
+        <!--la etiqueta <form> es para crear formularios-->
+        <!--Botones de radio-->
+        <label for="Interior"><input id="Interior" type="radio" name="grupo-1">Interior</label>
+        
+          <br>
+          <!--Se utiliza para crear un salto de linea, es decir una linea debajo de otra linea-->
+
+        <label for="Exterior"><input id="Exterior" type="radio" name="grupo-1">Exterior</label>
+        <!--la etiqueta <label> se utiliza para hacer que el texto sea parte del boton. Esto ayuda en los dispositivos touch y para accesibilidad-->
+
+          <br>
+          <!--Casillas de verificacion-->
+          <label for="carinoso">
+            <input id="carinoso" type="checkbox" value="carinoso" checked>cariñoso</label>
+            <br>
+
+          <label for="perezoso">
+            <input id="perezoso" type="checkbox" value="perezoso" >Perezoso</label>
+            <br>
+
+          <label for="energico" >
+            <input id="energico" type="checkbox" value="energico" >Enérgico</label>
+            <br>
+          <!--El atributo checked es para tener de manera predeterminada la casilla marcada al marcar la pagina-->
+
+          <!--Texto y boton enviar-->
+        <input type="text" placeholder="Lo que sea, es solo de prueba" required>
+        <!--la etiqueta <input> es para crear la entrada de texto o lo que se require. el atributo type="text" es para permitir cualquier texto. el atributo placeholder es para marcar la entrada de texto. el atributo required, suficiente en si mismo hace que un campo sea obligatorio-->
+
+          <br>
+
+        <button type="submit">Enviar</button>
+        <!--La etiqueta <button> es para crear botones-->
+      </form>
+
+      <ruby>
+        漢<rt>Kan</rt>
+        字<rt>Ji</rt>
+        </ruby>
+
+		</main>
+
+    <footer>
+      <p><small>parrafo de pie de pagina</small></p>
+    </footer>
+      <!--la etiqueta footer no pertenece a main, debe estar fuera de la etiqueta main-->
+			
+			
+	</body>
+</html>
